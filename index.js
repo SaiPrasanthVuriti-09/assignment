@@ -11,7 +11,8 @@ const getgradient = () => {
   const color1 = getRandomColor();
   const color2 = getRandomColor();
   const color3 = getRandomColor();
-  document.body.style.background = `linear-gradient(to right, ${color1}, ${color2}, ${color3})`;}
+  document.body.style.background = `linear-gradient(to right, ${color1}, ${color2}, ${color3})`;
+document.getElementById("msg").innerText= `${color1}, ${color2}, ${color3}`;}
   
   const button=document.getElementById("button" )
   button.addEventListener("click",()=>{getgradient()});
